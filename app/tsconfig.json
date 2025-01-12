@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                  // JavaScript version to compile to
+    "module": "esnext",               // Module system for bundlers like Webpack
+    "jsx": "react-jsx",               // Enable JSX for React
+    "strict": true,                   // Enable strict type-checking
+    "esModuleInterop": true,          // Enable ES module compatibility
+    "moduleResolution": "node",       // Resolve modules in Node.js style
+    "skipLibCheck": true              // Skip type-checking of declaration files
+  },
+  "include": ["src/**/*"],            // Include all files in the src directory
+  "exclude": ["node_modules"]         // Exclude the node_modules folder
+}
